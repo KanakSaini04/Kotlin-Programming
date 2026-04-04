@@ -4,7 +4,7 @@ fun student( name: String="Praveen", standard: String="IX" , roll_no: Int=11 ) {
     println("Standard of the student is: $standard")
     println("Roll no of the student is: $roll_no")
 }
-
+// Function
 fun main(args: Array<String>) {
     val name_of_student = "Gaurav"
     val standard_of_student = "VIII"
