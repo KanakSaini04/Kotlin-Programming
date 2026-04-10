@@ -1,4 +1,4 @@
-class Employee {
+class Employee2{
     constructor(empId: Int, empName: String) {
         println("Employee id is: $empId, Employee name: $empName")
     }
@@ -9,6 +9,8 @@ class Employee {
 }
 
 fun main() {
-    val e1 = Employee(18018, "Sagnik")
-    val e2 = Employee(11011, "Praveen", 600000.5)
+    val e1 = Employee2(18018, "Sagnik")
+    val e2 = Employee2(11011, "Praveen", 600000.5)
+    println(e1)
+    println(e2)
 }

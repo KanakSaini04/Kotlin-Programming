@@ -1,4 +1,4 @@
-class Add {
+class Add1 {
     constructor(a: Int, b: Int, c: Int) {
         println("Sum of $a, $b, $c = ${a + b + c}")
     }
@@ -9,5 +9,6 @@ class Add {
 }
 
 fun main() {
-    val add = Add(5, 6)
+    val add = Add1(5, 6)
+    println(add)
 }

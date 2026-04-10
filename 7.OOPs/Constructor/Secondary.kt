@@ -1,4 +1,4 @@
-class Add {
+class Add2{
     var c: Int = 0
 
     constructor(a: Int, b: Int) {
@@ -8,5 +8,6 @@ class Add {
 }
 
 fun main() {
-    val add = Add(5, 6)
+    val add = Add2(5, 6)
+    println(add)
 }
