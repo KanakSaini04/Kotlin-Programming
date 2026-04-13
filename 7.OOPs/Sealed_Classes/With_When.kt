@@ -11,7 +11,7 @@ fun describe(fruit: Fruit) {
         is Pomegranate -> println("Pomegranate is good for vitamin D")
     }
 }
-
+//Function
 fun main() {
     describe(Apple())
     describe(Mango())
