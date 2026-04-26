@@ -9,3 +9,4 @@ fun main() {
     val filtered = fruits.filter { it.startsWith("a") }
     println("Filtered list: $filtered")
 }
+// setup
