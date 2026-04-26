@@ -5,3 +5,4 @@ fun main() {
     println(str?.length ?: "-1")
     
 }
+//Elvis-operator
