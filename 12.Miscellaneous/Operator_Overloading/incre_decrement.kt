@@ -7,7 +7,7 @@ class CustomString(var value: String) {
 
     override fun toString() = value
 }
-
+// Main function
 fun main() {
     var str = CustomString("Hello")
     println(str) 
