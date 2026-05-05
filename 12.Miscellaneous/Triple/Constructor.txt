@@ -1,0 +1,6 @@
+fun main() {
+    val triple = Triple(1, "Geeks", 2.0)
+    println(triple.first)
+    println(triple.second)
+    println(triple.third)
+}
